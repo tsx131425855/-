@@ -1,0 +1,128 @@
+.package {
+  padding: 32px;
+  background-color: #f0f2f5;
+
+  .hide {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    .input {
+      width: 300px;
+      margin-right: 10px;
+    }
+  }
+  .input {
+    width: 300px;
+    margin-right: 10px;
+  }
+  .ubbuout {
+    width: 100px;
+    margin-right: 20px;
+  }
+  .block {
+    margin-top: 30px;
+  }
+
+  .bothSides {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .maright {
+    margin-right: 30px;
+    // margin-bottom: 15px;
+  }
+}
+.addhide {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(242, 242, 242);
+  padding: 10px;
+}
+.maxtab {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.tabtype {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tabbott {
+  border-bottom: 5px solid rgb(255, 152, 0);
+}
+.gaosizuobian {
+  margin-left: 30px;
+  display: inline-block;
+}
+.el-table {
+  color: #000000;
+}
+.fromSlide {
+  height: 600px;
+  overflow-y: auto;
+
+  .fromContent {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .frominput {
+    width: 100px;
+    height: 30px;
+    line-height: 1;
+  }
+}
+.fromSlide {
+  height: 600px;
+  overflow-y: auto;
+  .fromContent {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .frominput {
+    width: 100px;
+    height: 30px;
+    line-height: 1;
+  }
+}
+.backtsx {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(242, 242, 242);
+  padding: 10px;
+}
+
+.jump {
+  color: rgb(24, 77, 223);
+  text-decoration: underline;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.colorfontsiz {
+  font-size: 14px;
+  color: rgb(195, 195, 195);
+}
